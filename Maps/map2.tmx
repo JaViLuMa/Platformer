@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="5">
+ <tileset firstgid="1" name="Tiles" tilewidth="128" tileheight="128" tilecount="54" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grass.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCenter.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCenter_round.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCliff_left.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCliff_right.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCliffAlt_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,43.0363 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCliffAlt_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="128">
+     <polygon points="0,0 127.454,-84.3016 128,-128 0,-128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCorner_left.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassCorner_right.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassHalf.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0.331049,73.1618 127.785,73.8239 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassHalf_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 -0.331049,73.4928 127.454,72.4997 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassHalf_mid.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,73.1618 127.123,72.8307 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassHalf_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0.331049,72.8307 127.123,72.8307 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassHill_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,128 128,128 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassHill_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="128">
+     <polygon points="0,0 128,-128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassLeft.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassMid.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Grass/grassRight.png"/>
+  </tile>
+  <tile id="18">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planet.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCenter.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCenter_rounded.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCliff_left.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCliff_right.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCliffAlt_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="128" y="128">
+     <polygon points="0,0 -128.331,-84.9637 -128,-128 0,-128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="24">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCliffAlt_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="128">
+     <polygon points="0,0 127.454,-84.9637 128,-128 0,-128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCorner_left.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetCorner_right.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetHalf.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0.331049,73.8239 126.792,74.817 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetHalf_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0.331049,73.8239 128.116,73.8239 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="29">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetHalf_mid.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,73.4928 127.454,72.8307 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="30">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetHalf_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0.331049,73.4928 128.116,73.1618 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetHill_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,128 128,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetHill_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="128">
+     <polygon points="0,0 128,-128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="33">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetLeft.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetMid.png"/>
+  </tile>
+  <tile id="35">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Planet/planetRight.png"/>
+  </tile>
+  <tile id="54">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snow.png"/>
+  </tile>
+  <tile id="55">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCenter.png"/>
+  </tile>
+  <tile id="56">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCenter_rounded.png"/>
+  </tile>
+  <tile id="57">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCliff_left.png"/>
+  </tile>
+  <tile id="58">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCliff_right.png"/>
+  </tile>
+  <tile id="59">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCliffAlt_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,43.3674 128,128 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="60">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCliffAlt_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 128,0 128.116,43.0363 0,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="61">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCorner_left.png"/>
+  </tile>
+  <tile id="62">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowCorner_right.png"/>
+  </tile>
+  <tile id="63">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowHalf.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 -0.662098,73.8239 127.785,73.4928 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="bottom_boundary" value=""/>
+    <property name="change_y" value=""/>
+    <property name="top_boundary" value=""/>
+   </properties>
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowHalf_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,73.8239 127.785,72.4997 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="65">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowHalf_mid.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0.662098,72.4997 126.792,73.1618 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="bottom_boundary" value=""/>
+    <property name="change_y" value=""/>
+    <property name="top_boundary" value=""/>
+   </properties>
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowHalf_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 -0.331049,72.8307 127.785,73.4928 128,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="67">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowHill_left.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0">
+     <polygon points="0,0 0,128 128,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowHill_right.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="128" y="0">
+     <polygon points="0,0 -128,128 0,128"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="69">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowLeft.png"/>
+  </tile>
+  <tile id="70">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowMid.png"/>
+  </tile>
+  <tile id="71">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Ground/Snow/snowRight.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="73" name="Valuables" tilewidth="128" tileheight="128" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Items/gemYellow.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="42.0432" y="40.719">
+     <polygon points="0,0 -13.242,17.2145 -12.9109,25.1597 21.5182,47.671 56.6093,25.1597 56.6093,18.8698 43.6984,-0.331049"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="74" name="Dynamic items" tilewidth="128" tileheight="128" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Tiles/boxCrate.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="75" name="Don't touch" tilewidth="128" tileheight="128" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Tiles/waterTop_high.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Tiles/spikes.png"/>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="128">
+     <polygon points="0,0 128,0 106.267,-63.7765 85.7416,-0.54623 63.8924,-63.4455 43.0363,-0.877279 20.8561,-64.1076"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="77" name="Items" tilewidth="128" tileheight="128" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../Desktop/Sprites/PNG/Tiles/signExit.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Platforms" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztltEKgCAMRf2R6jeEyF4Sn/r/38mBgoxNrhVGoHCfZDvbncisMcZ+pN5ncAd3cP/PDUlrZy5ypqhFufNRe9TxgEv55ySNIzEpjwPZb8w3M1v+ez5fEupV2eddbinyagNiNaYFapdiEKavMJE5a75Q3uy7VEetV8Rv6Z7PTaoJ3Sd4zyfjlu+K9xKYWvYYJ8TnHBd5CyqE
+  </data>
+ </layer>
+ <layer id="2" name="Dynamic Items" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQA7wGmgH0BgMd/8NZjAa9kMfAACt5gDf
+  </data>
+ </layer>
+ <layer id="3" name="Valuables" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALygOdAO4BMMFTdPQpGwSgYOgAAwUYAkw==
+  </data>
+ </layer>
+</map>
