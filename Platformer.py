@@ -1,7 +1,3 @@
-# -----------*****----------- #
-# 2D Platformer by Luka Ruzic #
-# -----------*****----------- #
-
 # Import necessary libraries
 from typing import Optional
 import arcade
